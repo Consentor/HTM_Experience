@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
+using System;
 
 namespace HTM_1st_Experience
 {
@@ -40,17 +37,13 @@ namespace HTM_1st_Experience
             Application.Exit();
         }
 
-        // Функция проверки выхода за пределы массива и выдачи номера в кольце
+        // Функция определения номера элемента в массиве (если вышли за пределы,
+        // то номер вычисляем как абсолютный остаток от деления номера на размер массива,
+        // т. к. регион HTM у нас не отрезок, а кольцо)
+        // На входе номер элемента и длина массива
         static int get_overflow_number(int number, int count)
         {
-            if (number < count && number >= 0)
-                return number;
-            else
-            {
-                if(number < 0) number += count;
-                else number -= count;
-            }
-            return get_overflow_number(number, count);
+            return (Math.Abs(number%count));
         }
     }
 }
