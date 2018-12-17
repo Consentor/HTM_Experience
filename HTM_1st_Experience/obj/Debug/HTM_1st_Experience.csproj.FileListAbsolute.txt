@@ -1,0 +1,20 @@
+C:\Users\aolenev\source\repos\HTM_1st_Experience\HTM_1st_Experience\bin\Debug\HTM_1st_Experience.exe.config
+C:\Users\aolenev\source\repos\HTM_1st_Experience\HTM_1st_Experience\bin\Debug\HTM_1st_Experience.exe
+C:\Users\aolenev\source\repos\HTM_1st_Experience\HTM_1st_Experience\bin\Debug\HTM_1st_Experience.pdb
+C:\Users\aolenev\source\repos\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.csprojAssemblyReference.cache
+C:\Users\aolenev\source\repos\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.Form1.resources
+C:\Users\aolenev\source\repos\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.Properties.Resources.resources
+C:\Users\aolenev\source\repos\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.csproj.GenerateResource.cache
+C:\Users\aolenev\source\repos\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.csproj.CoreCompileInputs.cache
+C:\Users\aolenev\source\repos\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.exe
+C:\Users\aolenev\source\repos\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.pdb
+C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.csprojAssemblyReference.cache
+C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.HTM_Form.resources
+C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.Properties.Resources.resources
+C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.csproj.GenerateResource.cache
+C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.csproj.CoreCompileInputs.cache
+C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.exe
+C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.pdb
+C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\bin\Debug\HTM_1st_Experience.exe.config
+C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\bin\Debug\HTM_1st_Experience.exe
+C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\bin\Debug\HTM_1st_Experience.pdb

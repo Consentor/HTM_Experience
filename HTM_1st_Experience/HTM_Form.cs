@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HTM_1st_Experience
 {
-    public partial class Form1 : Form
+    public partial class HTM_Form : Form
     {
-        public Form1()
+        public HTM_Form()
         {
             InitializeComponent();
         }

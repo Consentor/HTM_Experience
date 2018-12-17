@@ -6,52 +6,51 @@ using System.Windows.Forms;
 
 namespace HTM_1st_Experience
 {
-    static class Program
+    static partial class Program
     {
+        public const int region_column_count = 20;
+        public const int column_neuron_count = 3;
+        public const double synapse_activate_level = 0.8;
+        public static int input_bits_count;
+        public static int synapses_per_side;
+        public static string text;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-        }
-    }
+            HTM_Form form = new HTM_Form();
+            Region region = new Region();
 
-    // Класс HTM региона
-    public class HTM_Region
-    {
-        private const int region_column_count= 10;
-        private const int column_neuron_count = 3;
-        private const double synapse_activate_level = 0.8;
+            // Вызов процедуры создания входных данных
+            int[] input_bits = CreateRandomInput();
 
-        // Класс колонки региона
-        public class Column
-        {
-            public class Neuron
-            {
-                // Статусы: 0 - пассивен, 1 - предсказание, 2 - активен
-                public int status;
+            // Инициализация региона
+            Init(region);
 
-                // Конструктор сразу делает новый нейрон пассивным
-                public Neuron()
-                {
-                    status = 0;
-                }
-            }
+            // Пространственный группировщик
+            int[] active_columns = Space_Compactor(input_bits, region);
 
-            // Конструктор сразу заполняет колонку нейронами
-            public Column()
-            {
-                Neuron[] neurons = new Neuron[column_neuron_count];
-            }
+            // Вывод информации о регионе
+            RegionOutput(region, active_columns);
+            
+            Application.Run(form);
+            Application.Exit();
         }
 
-        void Init()
+        // Функция проверки выхода за пределы массива и выдачи номера в кольце
+        static int get_overflow_number(int number, int count)
         {
-
+            if (number < count && number >= 0)
+                return number;
+            else
+            {
+                if(number < 0) number += count;
+                else number -= count;
+            }
+            return get_overflow_number(number, count);
         }
     }
 }

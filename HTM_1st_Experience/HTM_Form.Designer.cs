@@ -1,7 +1,10 @@
-﻿namespace HTM_1st_Experience
+﻿using System.Windows.Forms;
+
+namespace HTM_1st_Experience
 {
-    partial class Form1
+    public partial class HTM_Form
     {
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -28,20 +31,35 @@
         /// </summary>
         private void InitializeComponent()
         {
+            output = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // Form1
+            // output
+            // 
+            output.Location = new System.Drawing.Point(12, 12);
+            output.Multiline = true;
+            output.Name = "output";
+            output.ReadOnly = true;
+            output.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            output.Size = new System.Drawing.Size(507, 567);
+            output.TabIndex = 0;
+            // 
+            // HTM_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(531, 313);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(531, 591);
+            this.Controls.Add(output);
+            this.Name = "HTM_Form";
+            this.Text = "HTM First Experience";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        public static TextBox output;
     }
 }
 
