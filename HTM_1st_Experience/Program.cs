@@ -5,7 +5,7 @@ namespace HTM_1st_Experience
 {
     static partial class Program
     {
-        public const int region_column_count = 20;
+        public const int region_column_count = 60;
         public const int column_neuron_count = 3;
         public const double synapse_activate_level = 0.8;
         public static int input_bits_count;

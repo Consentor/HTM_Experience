@@ -18,3 +18,13 @@ C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experienc
 C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\bin\Debug\HTM_1st_Experience.exe.config
 C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\bin\Debug\HTM_1st_Experience.exe
 C:\VS Projects\HTM_1st_Experience\HTM_1st_Experience\bin\Debug\HTM_1st_Experience.pdb
+C:\Users\aolenev\Source\Repos\Consentor\HTM_Experience\HTM_1st_Experience\bin\Debug\HTM_1st_Experience.exe.config
+C:\Users\aolenev\Source\Repos\Consentor\HTM_Experience\HTM_1st_Experience\bin\Debug\HTM_1st_Experience.exe
+C:\Users\aolenev\Source\Repos\Consentor\HTM_Experience\HTM_1st_Experience\bin\Debug\HTM_1st_Experience.pdb
+C:\Users\aolenev\Source\Repos\Consentor\HTM_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.csprojAssemblyReference.cache
+C:\Users\aolenev\Source\Repos\Consentor\HTM_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.HTM_Form.resources
+C:\Users\aolenev\Source\Repos\Consentor\HTM_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.Properties.Resources.resources
+C:\Users\aolenev\Source\Repos\Consentor\HTM_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.csproj.GenerateResource.cache
+C:\Users\aolenev\Source\Repos\Consentor\HTM_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.csproj.CoreCompileInputs.cache
+C:\Users\aolenev\Source\Repos\Consentor\HTM_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.exe
+C:\Users\aolenev\Source\Repos\Consentor\HTM_Experience\HTM_1st_Experience\obj\Debug\HTM_1st_Experience.pdb
