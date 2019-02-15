@@ -9,7 +9,9 @@ namespace HTM_1st_Experience
         static int[] CreateRandomInput()
         {
             // Количество битов во входном массиве
-            int n = 10;
+            int n = 30;
+            // Количество единиц во входном массиве
+            int ones_count = 0;
             // Текст для вывода на форму
             text = "";
             // Временно создаем рандомный массив из n битов
@@ -23,8 +25,9 @@ namespace HTM_1st_Experience
                 text += input_bits[i];
                 if (i < n-1 && (i + 1) % 10 != 0) text += "   ";
                 else text += Environment.NewLine;
+                if (input_bits[i] == 1) ones_count++;
             }
-            text += Environment.NewLine;
+            text += "Всего единиц в массиве: " + ones_count + Environment.NewLine + Environment.NewLine;
 
             // На случай, если входные биты будут приходить потоком, определяем их количество
             input_bits_count = input_bits.Count();

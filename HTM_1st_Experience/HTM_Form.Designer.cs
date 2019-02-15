@@ -41,14 +41,14 @@ namespace HTM_1st_Experience
             output.Name = "output";
             output.ReadOnly = true;
             output.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            output.Size = new System.Drawing.Size(1140, 590);
+            output.Size = new System.Drawing.Size(1140, 790);
             output.TabIndex = 0;
             // 
             // HTM_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1150, 600);
+            this.ClientSize = new System.Drawing.Size(1150, 800);
             this.Controls.Add(output);
             this.Name = "HTM_Form";
             this.Text = "HTM First Experience";
