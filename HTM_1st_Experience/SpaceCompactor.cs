@@ -51,6 +51,11 @@ namespace HTM_1st_Experience
                 {
                     for (int i = 1; i <= neigbours_per_side; i++)
                     {
+                        // !!!!!!!!!!!!!!!!
+                        // Подумать, стоит ли считать соседей, равных по перекрытию, сильными
+                        // Сейчас такие соседи не учитываются
+                        // !!!!!!!!!!!!!!!!
+
                         // Находим номер соседа справа
                         int target_neigbour = j + i;
                         // Если номер за пределами массива, корректируем
@@ -59,7 +64,7 @@ namespace HTM_1st_Experience
                         if (region.columns[target_neigbour].overlap > region.columns[j].overlap)
                             powerful_neigbours++;
 
-                        // Находим номер соседа справа
+                        // Находим номер соседа слева
                         target_neigbour = j - i;
                         // Если номер за пределами массива, корректируем
                         target_neigbour = get_overflow_number(target_neigbour, region_column_count);
@@ -76,7 +81,6 @@ namespace HTM_1st_Experience
                     }
                 }
             }
-
             return active_columns;
         }
     }
